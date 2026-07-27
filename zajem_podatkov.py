@@ -21,9 +21,6 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-
-# Nastavitve projekta
-
 KNJIGE_MAPA = "knjige"
 
 URL_SEZNAMA = (
@@ -37,9 +34,6 @@ CSV_FILENAME = os.path.join(
     CSV_MAPA,
     "knjige_podrobno.csv"
 )
-# Ker imajo spletna mesta varnostne mehanizme, ki lahko zaznajo veliko količino
-# ukazov z istega naslova, uporabljam time.sleep(), ki zagotovi zmernejšo
-# hitrost pošiljanja zahtevkov.
 
 
 def download_url_to_string(url):
