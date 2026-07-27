@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtualna okolja
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistemske datoteke
+.DS_Store
