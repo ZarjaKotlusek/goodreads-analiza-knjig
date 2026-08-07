@@ -172,7 +172,6 @@ def pridobi_podatke_knjig():
 
     vse_knjige = []
 
-    # Zanka gre skozi vseh 11 shranjenih HTML strani.
     for stran in range(1, 12):
 
         ime_datoteke = os.path.join(
